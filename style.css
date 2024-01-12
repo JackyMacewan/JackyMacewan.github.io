@@ -1,8 +1,38 @@
+.fixed-top {
+    position: fixed;
+    background-color: black;
+}
+
 body {
-    background-color: #1D2B53;
+    background-color: #161A30;
+    text-align: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
 }
 
 footer {
     color: white;
     display: flex;
+}
+
+div {
+    color: white;
+}
+
+p {
+    display: block;
+    text-align: center;
+}
+
+.collection {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    padding: 0%;
 }
