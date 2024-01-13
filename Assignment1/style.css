@@ -1,0 +1,71 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: clear;
+    padding: 10px 0;
+}
+
+li {
+    display: block;
+    float: left;
+    padding-left: 16px;
+    color: aqua;
+}
+
+body {
+    background-image: url("Gtitle.jpg"); 
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center; /*Center the image*/
+    background-repeat: no-repeat; /*self explanatory*/
+    background-size: cover; /*Make the image cover the entire web page*/
+}
+
+h1 {
+    padding-left: 1em;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    text-align: right;
+}
+
+.content {
+    color: white; /*Set font color for all div containers*/
+    background-color: #161A30;
+}
+
+p {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: block;
+    text-align: center;
+}
+
+.collection {
+    display: flex;
+    flex-wrap: wrap; /*flex-wrap make it that image box stacks when the page shrink */
+}
+
+img {
+    display: block;
+    width: 490px;
+    padding: 5px;
+    object-fit: cover;
+
+}
+
+.showcard {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: block;
+    width: 500px;
+    height: auto;
+}
