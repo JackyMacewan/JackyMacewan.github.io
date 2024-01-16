@@ -1,13 +1,11 @@
 header {
     width: 100%;
+    height: 4%;
     background-color: black;
     margin: auto;
     position: fixed;
     top: 0;
-    left: 0;
-    z-index: 1;
     background: clear;
-    padding: 10px 0;
 }
 
 li {
@@ -29,7 +27,7 @@ body {
 }
 
 h1 {
-    padding-top: 5%;
+    padding-top: 7%;
     padding-left: 4%;
     text-decoration: underline;
     font-family: system-ui;
